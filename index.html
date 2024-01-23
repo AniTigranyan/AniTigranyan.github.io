@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel = 'stylesheet' href ='styleportfolio.css'>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: hsl(216, 11%, 83%);
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:indigo;
+
+}
+.detel{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.detel h1{
+    font-size: 50px;
+    color:rgb(30, 34, 61);
+    margin-bottom: 20px;
+}
+span{
+    color:rgb(129, 141, 223);
+
+}
+.detel p{
+    color:#18152f;
+    line-height: 22px;
+}
+.education{
+    height: 160px;
+    width: 260px;
+    padding: 20px 35px;
+    background: #3b3657;
+    border-radius: 20px;
+    margin: 15px;
+    position:fixed;
+    overflow: hidden;
+    text-align: center;
+}
+.education h1{
+    font-size: 30px;
+    color:black;
+}
+.skills{
+    height: 160px;
+    width: 260px;
+    padding: 20px 35px;
+    background: #3b3657;
+    border-radius: 20px;
+    margin: 15px;
+    position: fixed;
+    overflow: hidden;
+    text-align: center;
+}
+.skills h1{
+    font-size: 30px;
+    color:black
+}
+
+    </style>
+</head>
+<body>
+    <div class = 'hero'>
+        <nav>
+            <ul>
+                <li><a href = '#'>HOME</a></li>
+                <li><a href = '#'>ABOUT</a></li>
+                <li><a href = '#'>SERVICES</a></li>
+                <li><a href = '#'>CONTACT ME</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>Hi I'm Tigranyan <span>Ani</span></h1>
+            <p>This is my Portfolio website that shows all 
+                <br> Details about me and my work expirience
+            </p>
+        </div>
+            <div class = 'education'>
+            <h1><span>EDUCATION</span></h1>
+            <p>2013-2022 Secondary School No.19 after Nikol Aghbalyan 
+                <br>2022-2025 High School No.29 after Andranik Margaryan
+            </p>
+            <div class = 'skills'>
+                <h1><span>SKILLS</span></h1>
+                <p>Musician(plays guitar,piano,ukulele)
+                    <br>artist
+                    <br>creates jewerly
+                    <br>begginer web developer
+                </p>
+            </div>
+        </div>
+</body>
+</html>
